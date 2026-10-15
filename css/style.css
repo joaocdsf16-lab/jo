@@ -4,3 +4,35 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.foto{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #555;
+}
+
+h1{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+main p{
+    font-size: 16px;
+    margin-top: 12px;
+}
