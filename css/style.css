@@ -18,7 +18,7 @@ main{
     align-items: center;
 }
 
-main.foto{
+img.foto{
     width: 90px;
     height: 90px;
     border-radius: 50%;
@@ -35,4 +35,34 @@ h1{
 main p{
     font-size: 16px;
     margin-top: 12px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 420px;
+    margin-top: 40px;
+}
+
+nav a{
+    display: block;
+    padding: 12px;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    background-color: rgba(255,255,255,0.4);
+    border: 1px solid #666;
+    border-radius: 8px;
+}
+
+div.redes{
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+div.redes img{
+    width: 24px;
+    height: 24px;
 }
