@@ -28,6 +28,8 @@ main{
     border-radius: 50%;
     object-fit: cover;
     border: 1px solid #555;
+    border: 3px solid white;
+    box-shadow: 0 0 0 4px #9b59e8;
 }
 
 h1{
@@ -73,4 +75,96 @@ nav a:hover{
 .redes img{
     width: 40px;
     height: 40px;
+}
+
+/* css dos projeto */
+
+.sobre-texto {
+    max-width: 620px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 40px;
+    padding: 24px;
+    border: 1px solid #666;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.voltar {
+    width: 220px;
+}
+
+.projetos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 620px;
+    margin-top: 32px;
+}
+
+.card {
+    padding: 12px;
+    border: 1px solid #666;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.card a {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+body.pagina-foguete {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+        url("../img/projeto2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main.foguete {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    gap: 32px;
+    padding: 48px 24px;
+    color: white;
+    text-align: center;
+}
+
+.foguete h1 {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.foguete-caixa {
+    max-width: 560px;
+    padding: 32px;
+    border: 2px solid white;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(6px);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.35);
+}
+
+.foguete-caixa h2 {
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+
+.foguete-caixa p {
+    font-size: 18px;
+    line-height: 1.5;
 }
